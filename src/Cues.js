@@ -1,4 +1,4 @@
-const CueTrackPositions = require('./CueTrackPositions');
+import CueTrackPositions from './CueTrackPositions';
 
 class Cues {
   constructor(cuesHeader, dataInterface, demuxer) {
@@ -140,4 +140,4 @@ class CuePoint {
   }
 }
 
-module.exports = Cues;
+export default Cues;

@@ -1,11 +1,11 @@
-const DataInterface = require('./DataInterface/DataInterface');
-const SeekHead = require('./SeekHead');
-const SegmentInfo = require('./SegmentInfo');
-const Tracks = require('./Tracks');
-const Cluster = require('./Cluster');
-const Cues = require('./Cues');
-const ElementHeader = require('./ElementHeader');
-const Tags = require('./Tags');
+import DataInterface from './DataInterface/DataInterface';
+import SeekHead from './SeekHead';
+import SegmentInfo from './SegmentInfo';
+import Tracks from './Tracks';
+import Cluster from './Cluster';
+import Cues from './Cues';
+import ElementHeader from './ElementHeader';
+import Tags from './Tags';
 
 //States
 const STATE_INITIAL = 0;
@@ -530,4 +530,4 @@ class JsWebm {
   }
 }
 
-module.exports = JsWebm;
+export default JsWebm;

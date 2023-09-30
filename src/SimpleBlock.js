@@ -319,4 +319,4 @@ class SimpleBlock {
   }
 }
 
-module.exports = SimpleBlock;
+export default SimpleBlock;

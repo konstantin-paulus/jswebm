@@ -6,4 +6,4 @@ class Track {
   }
 }
 
-module.exports = Track;
+export default Track;

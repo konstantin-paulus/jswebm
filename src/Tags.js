@@ -1,4 +1,4 @@
-const Tag = require('./Tag');
+import Tag from './Tag';
 
 class Tags {
   constructor(tagsHeader, dataInterface) {
@@ -57,4 +57,4 @@ class Tags {
   }
 }
 
-module.exports = Tags;
+export default Tags;

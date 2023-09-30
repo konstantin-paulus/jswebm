@@ -1,4 +1,4 @@
-const Seek = require('./Seek');
+import Seek from './Seek';
 
 class SeekHead {
   constructor(seekHeadHeader, dataInterface) {
@@ -59,4 +59,4 @@ class SeekHead {
   }
 }
 
-module.exports = SeekHead;
+export default SeekHead;

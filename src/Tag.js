@@ -1,5 +1,5 @@
-const Targets = require('./Targets');
-const SimpleTag = require('./SimpleTag');
+import Targets from './Targets';
+import SimpleTag from './SimpleTag';
 
 class Tag {
   constructor(tagHeader, dataInterface, demuxer) {
@@ -68,4 +68,4 @@ class Tag {
   }
 }
 
-module.exports = Tag;
+export default Tag;

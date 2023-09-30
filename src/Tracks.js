@@ -1,7 +1,7 @@
-const Seek = require('./Seek');
-const AudioTrack = require('./AudioTrack');
-const VideoTrack = require('./VideoTrack');
-const Track = require('./Track');
+import Seek from './Seek';
+import AudioTrack from './AudioTrack';
+import VideoTrack from './VideoTrack';
+import Track from './Track';
 
 class Tracks {
   constructor(seekHeadHeader, dataInterface, demuxer) {
@@ -266,4 +266,4 @@ class TrackLoader {
   }
 }
 
-module.exports = Tracks;
+export default Tracks;

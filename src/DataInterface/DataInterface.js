@@ -1,7 +1,7 @@
 var INITIAL_COUNTER = -1;
 
-const ElementHeader = require('../ElementHeader');
-const DateParser = require('./DateParser');
+import ElementHeader from '../ElementHeader';
+import DateParser from './DateParser';
 
 class DataInterface {
   constructor(demuxer) {
@@ -714,6 +714,4 @@ class DataInterface {
 }
 
 
-
-
-module.exports = DataInterface;
+export default DataInterface;

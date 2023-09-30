@@ -57,4 +57,4 @@ class BlockGroup {
   }
 }
 
-module.exports = BlockGroup;
+export default BlockGroup;

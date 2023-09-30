@@ -34,4 +34,4 @@ class ElementHeader {
   }
 }
 
-module.exports = ElementHeader;
+export default ElementHeader;

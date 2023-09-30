@@ -14,4 +14,4 @@ class Chapters {
   }
 }
 
-module.exports = Chapters;
+export default Chapters;

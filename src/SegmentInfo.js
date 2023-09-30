@@ -105,4 +105,4 @@ class SegmentInfo {
   }
 }
 
-module.exports = SegmentInfo;
+export default SegmentInfo;

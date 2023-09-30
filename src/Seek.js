@@ -57,4 +57,4 @@ class Seek {
   }
 }
 
-module.exports = Seek;
+export default Seek;

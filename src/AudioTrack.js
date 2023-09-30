@@ -1,4 +1,4 @@
-const Track = require('./Track');
+import Track from './Track';
 
 class AudioTrack extends Track {
   constructor(trackHeader, dataInterface) {
@@ -51,4 +51,4 @@ class AudioTrack extends Track {
   }
 }
 
-module.exports = AudioTrack;
+export default AudioTrack;

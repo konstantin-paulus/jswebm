@@ -54,4 +54,4 @@ class CueTrackPositions {
   }
 }
 
-module.exports = CueTrackPositions;
+export default CueTrackPositions;

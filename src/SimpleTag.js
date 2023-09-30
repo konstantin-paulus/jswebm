@@ -65,4 +65,4 @@ class SimpleTag {
   }
 }
 
-module.exports = SimpleTag;
+export default SimpleTag;

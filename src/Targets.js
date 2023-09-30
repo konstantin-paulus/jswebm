@@ -49,4 +49,4 @@ class Targets {
   }
 }
 
-module.exports = Targets;
+export default Targets;

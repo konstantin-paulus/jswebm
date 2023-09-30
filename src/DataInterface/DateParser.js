@@ -8,4 +8,4 @@ class DateParser {
 
 }
 
-module.exports = DateParser;
+export default DateParser;

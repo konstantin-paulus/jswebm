@@ -1,4 +1,4 @@
-const Track = require('./Track.js');
+import Track from './Track.js';
 
 class VideoTrack extends Track {
   constructor(trackHeader, dataInterface) {
@@ -123,4 +123,4 @@ class VideoTrack extends Track {
   }
 }
 
-module.exports = VideoTrack;
+export default VideoTrack;

@@ -1,7 +1,7 @@
 const UNSET = -1;
-const ElementHeader = require('./ElementHeader');
-const SimpleBlock = require('./SimpleBlock');
-const BlockGroup = require('./BlockGroup');
+import ElementHeader from './ElementHeader';
+import SimpleBlock from './SimpleBlock';
+import BlockGroup from './BlockGroup';
 
 class Cluster {
   constructor(offset, size, end, dataOffset, dataInterface, demuxer) {
@@ -67,7 +67,7 @@ class Cluster {
             );
           this.tempBlock.load();
           if (!this.tempBlock.loaded)
-          return 0;
+            return 0;
           // else
           // this.blocks.push(this.tempBlock); //Later save positions for seeking and debugging
           this.tempBlock.reset();
@@ -125,4 +125,4 @@ class Cluster {
   }
 }
 
-module.exports = Cluster;
+export default Cluster;
